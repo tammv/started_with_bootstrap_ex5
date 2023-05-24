@@ -18,6 +18,7 @@
           <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
             <div class="container">
               <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="41" /></a>
+
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
                   <a class="nav-link" href="#"><span class="fa fa-home fa-lg"></span> Home</a>
@@ -29,7 +30,7 @@
                   <a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a>
+                  <a class="nav-link" href="/contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a>
                 </li>
                 <li>
                   <span class="navbar-text">
@@ -39,9 +40,11 @@
               </ul>
             </div>
           </nav>
+
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
             <span class="navbar-toggler-icon"> = </span>
           </button>
+
           <div class="collapse navbar-collapse" id="Navbar">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
@@ -56,33 +59,118 @@
           <div class="col-12 col-sm align-self-center">
             <img src="img/logo.png" class="img-fluid" />
           </div>
+
           <div class="col-12 col-sm-6">
             <a
               role="button"
               class="btn btn-block nav-link btn-warning"
               data-toggle="tooltip"
               data-html="true"
-              title="Or Call us at  <br><strong>+852 12345678</strong>"
+              title="Or Call us at  <br> <strong> +852 12345678 </strong>"
               data-placement="bottom"
               href="#reserveform"
               >Reserve Table</a
             >
           </div>
+
           <div class="col-12 col-sm-6">...</div>
         </div>
       </div>
     </header>
     <!-- Section  -->
     <section>
+      <div class="row row-content">
+        <div class="col">
+          <div id="mycarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="img/uthappizza.png" alt="Uthappizza" />
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>
+                    Uthappizza
+                    <span class="badge badge-danger">HOT</span>
+                    <span class="badge badge-pill badge-default">$4.99</span>
+                  </h2>
+                  Delicious, Unique Taste
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  class="d-block img-fluid"
+                  src="img/buffet.png"
+                  alt="Uthappizza"
+                  style="width: 350px; height: 40px"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>
+                    Sausage Pizza
+                    <span class="badge badge-danger">HOT</span>
+                    <span class="badge badge-pill badge-default">$5.00</span>
+                  </h2>
+                  Delicious, Crispy
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <img
+                  class="d-block img-fluid"
+                  src="img/buffet.png"
+                  alt="Uthappizza"
+                  style="width: 350px; height: 40px"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <h2>
+                    Vegetarian Pizza
+                    <span class="badge badge-danger">HOT</span>
+                    <span class="badge badge-pill badge-default">$4.50</span>
+                  </h2>
+                  For Vegetarians
+                </div>
+              </div>
+            </div>
+
+            <ol class="carousel-indicators">
+              <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#mycarousel" data-slide-to="1"></li>
+              <li data-target="#mycarousel" data-slide-to="2"></li>
+            </ol>
+
+            <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+
+            <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+
+            <!-- <div class="btn-group" id="carouselButton">
+                      <button class="btn btn-danger btn-sm" id="carousel-pause">
+                          <span class="fa fa-pause"></span>
+                      </button>
+                      <button class="btn btn-danger btn-sm" id="carousel-play">
+                          <span class="fa fa-play"></span>
+                      </button>
+                  </div>    -->
+
+            <button class="btn btn-danger btn-sm" id="carouselButton">
+              <span id="carousel-button-icon" class="fa fa-pause"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
       <div class="container">
         <div class="row">
           <div class="media">
             <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="Uthappizza" />
             <div class="media-body">
               <h2 class="mt-0">
-                Uthappizza<span class="badge badge-danger">HOT</span
-                ><span class="badge badge-pill badge-secondary">$4.99</span>
+                Uthappizza
+                <span class="badge badge-danger">HOT</span>
+                <span class="badge badge-pill badge-secondary">$4.99</span>
               </h2>
+
               <p class="d-none d-sm-block">
                 A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe
                 vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.
@@ -104,6 +192,7 @@
             </div>
           </div>
         </div>
+
         <div class="row">
           <div class="alert alert-warning alert-dismissible" role="alert">
             <button type="button" class="close" data-dismiss="alert">
@@ -115,15 +204,13 @@
         </div>
         <div class="row">
           <div class="col-12 col-sm-7 col-md-6 order-sm-last">
-            <div class="col col-sm col-md order-sm-first">
-              <div class="progress">
-                <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 10%">
-                  10%
-                </div>
-              </div>
-            </div>
             <div class="progress">
-              <div class="progress-bar progress-bar-striped bg-primary" role="progressbar" style="width: 50%">50%</div>
+              <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 80%">80%</div>
+            </div>
+          </div>
+          <div class="col col-sm col-md order-sm-first">
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 20%">20%</div>
             </div>
           </div>
         </div>
